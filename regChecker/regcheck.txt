@@ -1,6 +1,3 @@
-1: No change happens in registry until the application is closed.
-2. No change happens in registry at all.
-
 Name					Registry changes						Variable changes					Notes
 					
 PT1:
