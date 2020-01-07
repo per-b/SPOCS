@@ -1,20 +1,96 @@
 1: No change happens in registry until the application is closed.
 2. No change happens in registry at all.
 
-
+Name					Registry changes						Variable changes					Notes
+					
 PT1:
-Port A, name: 			No change until application is closed.
-Port B, name: 			No change until application is closed.
-Port A, limit: 			No change until application is closed.
-Port B, limit: 			No change until application is closed.
-Port P, limit: 			No change until application is closed.
-Alarm limit, low: 		No change until application is closed.
-Alarm limit, high:		No change until application is closed.
-Dead Band, A:			No change.
-Dead Band, B:			No change.
-Dead Band, P:			No change.
-Pressure sensor, gain:		No change until application is closed.
-Pressure sensor, offsett:	No change until application is closed.
-Pressure sensor, range from: 	No change until application is closed.
-Pressure sensor, range to:	No change until application is closed.
- 
+Channel Name				No change until application is closed.				"name"																
+Port A, Name 				No change until application is closed.				"name"							Name is reset when closing/opening the application
+Port B, Name 				No change until application is closed.				"name"							Name is reset when closing/opening the application
+Port A, Limit 				No change until application is closed.				"maxLimit"
+Port B, Limit 				No change until application is closed.				"maxLimit"
+Port P, Limit 				No change until application is closed.				"maxLimit"
+Alarm limit, Low 			No change until application is closed.				"limitLow"
+Alarm limit, High			No change until application is closed.				"limitHigh"
+
+Dead Band, A				No change.							""
+Dead Band, B				No change.							""
+Dead Band, P				No change.							""
+
+Pressure sensor, Gain			No change until application is closed.				"gain"
+Pressure sensor, Offset			No change until application is closed.				"offset"
+Pressure sensor, Range from 		No change until application is closed.				"minimum"
+Pressure sensor, Range to		No change until application is closed.				"maximum"
+
+
+Pressure Sensor:
+PT100, Gain				No change until application is closed.				"gain"
+Pt100, Offset				No change until application is closed.				"offset"
+PT100, RangeFrom			No change until application is closed.				"minimum"
+PT100, RangeTo				No change until application is closed.				"maximum"
+PT100, Temperature alarm, low		No change until application is closed.				"LimitLow"
+PT100, Temperature alarom, high		No change until application is closed.				"LimitHigh"
+
+Return, Gain				No change until application is closed.				"gain"
+Return, Offset				No change until application is closed.				"offset"
+Return, Range from			No change until application is closed.				"minimum"
+Return, Range to			No change until application is closed.				"maximum"
+Return, Alarm low			No change until application is closed.				"limitLow"
+Return, Alarm high			No change until application is closed.				"limitHigh"
+
+Backseal, Gain				No change until application is closed.				"gain"
+Backseal, Offset			No change until application is closed.				"offset"
+Backseal, Range from			No change until application is closed.				"minimum"
+Backseal, Range to			No change until application is closed.				"maximum"
+Backseal, Alarm low			No change until application is closed.				"limitLow"
+Backseal, Alarm High			No change until application is closed.				"limitHigh"
+
+
+Communication Config:
+RS232 1, Address			No change.							""
+RS232 1, Com port			No change.							""
+RS232 1, Baudrate			No change.							""
+
+RS232 2, Address			No change.							""
+RS232 2, Com port			No change.							""
+RS232 2, Baudrate			No change.							""
+
+
+PT9
+Channel Name				No change until application is closed.				"name"							Port A and B is set from "V6.2A/B" to "Port A/B" when channel name is set.
+Port A, Name				No change until application is closed.				"name"							Name is reset when closing/opening the application.
+Port B, Name				No change until application is closed.				"name"							Name is reset when closing/opening the application.
+Port A, Limit				No change until application is closed.				"maxLimit"
+Port B, Limit				No change until application is closed.				"maxLimit"
+Port P, Limit				No change until application is closed.				"maxLimit"
+Alarm limit, Low			No change until application is closed.				"limitLow"
+Alarm limit, High			No change until application is closed.				"limitHigh"
+
+Dead Band, A				No change.							""
+Dead Band, B				No change.							""
+Dead Band, P				No change.							""
+
+Pressure sensor, Gain			No change until application is closed.				"gain"
+Pressure sensor, Offset			No change until application is closed.				"offset"
+Pressure sensor, Range from		No change until application is closed.				"minimum"
+Pressure sensor, Range to		No change until application is closed.				"maximum"
+
+
+PT6
+Channel Name				No change until application is closed.				"name"							Port A and B is set from "V6.2A/B" to "Port A/B" when channel name is set.
+Port A, Name				No change until application is closed.				"name"							Name is reset when closing/opening the application.
+Port B, Name				No change until application is closed.				"name"							Name is reset when closing/opening the application.
+Port A, Limit				No change until application is closed.				"maxLimit"						
+Port B, Limit				No change until application is closed.				"maxLimit"
+Port P, Limit				No change until application is closed.				"maxLimit"
+Alarm limit, Low			No change until application is closed.				"limitLow"
+Alarm limit, High			No change until application is closed.				"limitHigh"
+
+Dead Band, A				No change.							""
+Dead Band, B				No change.							""
+Dead Band, P				No change.							""
+
+Pressure sensor, Gain			No change until application is closed.				"gain"
+Pressure sensor, Offset			No change until application is closed.				"offset"
+Pressure sensor, Range from		No change until application is closed.				"minimum"
+Pressure sensor, Range to		No change until application is closed.				"maximum"
