@@ -1,0 +1,20 @@
+1: No change happens in registry until the application is closed.
+2. No change happens in registry at all.
+
+
+PT1:
+Port A, name: 			No change until application is closed.
+Port B, name: 			No change until application is closed.
+Port A, limit: 			No change until application is closed.
+Port B, limit: 			No change until application is closed.
+Port P, limit: 			No change until application is closed.
+Alarm limit, low: 		No change until application is closed.
+Alarm limit, high:		No change until application is closed.
+Dead Band, A:			No change.
+Dead Band, B:			No change.
+Dead Band, P:			No change.
+Pressure sensor, gain:		No change until application is closed.
+Pressure sensor, offsett:	No change until application is closed.
+Pressure sensor, range from: 	No change until application is closed.
+Pressure sensor, range to:	No change until application is closed.
+ 
