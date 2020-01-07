@@ -91,3 +91,6 @@ Pressure sensor, Gain			No change until application is closed.				"gain"
 Pressure sensor, Offset			No change until application is closed.				"offset"
 Pressure sensor, Range from		No change until application is closed.				"minimum"
 Pressure sensor, Range to		No change until application is closed.				"maximum"
+
+									
+																				When doing a lot of changes, the program tends to crash.
