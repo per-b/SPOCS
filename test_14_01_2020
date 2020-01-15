@@ -1,0 +1,10 @@
+beta8:
+- Vannalarm fortsatt trigget ved oppstart
+- COM-porter og baudrate satt etter registerverdier - bra!
+- Stop single output: Slår ikke av ventilene, hverken fysisk eller grafisk
+- Stop single output fungerer så lenge den fortsatt "teller", altså hvis en trykker denne kjapt nok
+- Stop all outputs: Slår fysisk av ventilene når de er "låste" grafisk, men dette vises heller ikke grafisk
+- Programmet kræsjer fortsatt til tider, helst når man gjør flere forandringer på én gang. F.eks så kræsjet det når jeg trykket "Stop (all) outputs" når jeg hadde flere ventiler
+  aktivert
+- Portnavn blir fortsatt resatt når en lukker og starter applikasjonen på ny
+
